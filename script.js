@@ -14,7 +14,7 @@ let selAns = ''
 
 let questions = [
     {   question: 'Who is the Queen of England?',
-        posAnswer: ['Queen Elizabeth II', 'Catherine, Duchess of Cambridge', 'Meghan, Duchess of Sussex', 'Beyonce Knowles'],
+        posAnswer: ['Queen Elizabeth II', 'Catherine, Duchess of Cambridge', 'Meghan, Duchess of Sussex', 'Queen Bey'],
         answer: 0
     },
     {   question: 'Who is the ruler of Zamunda?',
@@ -26,8 +26,8 @@ let questions = [
         answer: 1
     },
     {
-        question: 'Who is the Prime Minister of Japan?',
-        posAnswer: ['Yoshihiko Noda', 'Naoto Kan', 'Shinzō Abe', 'Yukio Hatoyama'],
+        question: 'How many islands are in the hawaiian chain?',
+        posAnswer: ['7', '10', '8', '6'],
         answer: 2
     }, 
     {

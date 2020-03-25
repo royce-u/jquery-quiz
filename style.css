@@ -1,10 +1,60 @@
 html,
 body {
-  margin: 0;
-  padding: 0;
+
 }
 
 h1 {
   color: chartreuse;
   text-align: center;
+}
+.gameboard {
+  background-color: black;
+  /* display: block;
+  z-index: 1; */
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 50%;
+  
+}
+#display-box {
+  background-color: white;;
+  height: 100px;
+  width: auto;
+  border: solid gray;
+  padding: 20px;
+}
+
+.prompt {
+  background-color: yellow;
+  /* display: absolute;
+  z-index: 2; */
+  height: 100px;
+  width: auto;
+  padding: 20px;
+  color: blue;
+}
+
+.answerBtn {
+  background-color: gray;
+  color: blue;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: auto;
+  padding: 20px;
+}
+.answers {
+  text-align: center;  
+}
+#start {
+  padding: 20px 40px;
+  background-color: green;
+}
+#next{
+  padding: 20px 40px;
+  background-color: aqua;
+  /* height: 30px;
+  width: 70px; */
 }

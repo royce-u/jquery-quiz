@@ -2,13 +2,32 @@
 <html>
 <head>
   <title>JQuery Quiz</title>
+  
   <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
-  <h1>Quiz Time!</h1>
+  <h1>Quiz</h1>
   <!-- TODO: ADD YOUR HTML CODE HERE -->
+  <div class="gameboard">
+    <div id="display-box"></div>
+    <div class="prompt"></div>
+    <div class="answers">
+      <div>
+      <input class="answerBtn" type="button" id="answer0">
+      <input class="answerBtn" type="button" id="answer1">
+    </div>
+    <div>
+      <input class="answerBtn" type="button" id="answer2">
+      <input class="answerBtn" type="button" id="answer3">
+    </div>
+    </div>
+    <button id="start">Start</button>
+    <button id="next">Next</button>
+  </div>
   
   <!-- TODO: ADD JQUERY DEPENDENCY -->
   <!-- TODO: ADD YOUR JS FILES -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="./script.js"></script>
 </body>
 </html>
